@@ -6,7 +6,8 @@ basic.forever(function () {
     PingUnit.Centimeters
     )
     basic.showNumber(dist)
+    basic.pause(100)
     if (dist < 10) {
-        music.startMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
+        soundExpression.giggle.playUntilDone()
     }
 })
